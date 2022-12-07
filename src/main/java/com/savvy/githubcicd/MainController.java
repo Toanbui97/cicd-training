@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @AllArgsConstructor
-public class MainControlelr {
+public class MainController {
 
     @GetMapping()
     public ResponseEntity<?> get() {
